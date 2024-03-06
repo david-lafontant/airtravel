@@ -72,6 +72,8 @@ GEM
       msgpack (~> 1.2)
     builder (3.2.4)
     concurrent-ruby (1.2.3)
+    cors (1.0.1)
+      multi_json
     crass (1.0.6)
     date (3.3.4)
     debug (1.9.1)
@@ -107,6 +109,7 @@ GEM
     mini_mime (1.1.5)
     minitest (5.22.2)
     msgpack (1.7.2)
+    multi_json (1.15.0)
     net-imap (0.4.10)
       date
       net-protocol
@@ -130,6 +133,8 @@ GEM
       nio4r (~> 2.0)
     racc (1.7.3)
     rack (2.2.8.1)
+    rack-cors (2.0.2)
+      rack (>= 2.0.0)
     rack-test (2.1.0)
       rack (>= 1.3)
     rails (7.0.8.1)
@@ -216,11 +221,13 @@ PLATFORMS
 DEPENDENCIES
   bcrypt (~> 3.1.7)
   bootsnap
+  cors
   debug
   factory_bot
   jsonapi-serializer
   pg (~> 1.1)
   puma (~> 5.0)
+  rack-cors
   rails (~> 7.0.6)
   rspec-rails
   rubocop
