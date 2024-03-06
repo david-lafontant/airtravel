@@ -1,10 +1,23 @@
-# README
+# AIRTRAVEL
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
 
-Things you may want to cover:
+Airtravel will be a application that allow the renting of small aircraft.
+the customers will have the option of renting a small aicraft or putting their aircraft on the market. In any case, it will have a dasboard.
+the present repository is the backend of Airtravel app.
 
+## Next steps
+
+* Design the API
+* Build and deploy the API
+* Design the frontend With React
+* Build and deploy the frontend
+* Submit Airtravel to the appreciation of the community through Linkedin and X (Twitter)
+* Refactor following the feedback collected
+
+[LICENCE](LICENCE.md)
+
+<!-- 
 * Ruby version
 
 * System dependencies
@@ -21,4 +34,4 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* ... -->
